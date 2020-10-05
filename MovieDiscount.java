@@ -11,7 +11,7 @@ public class MovieDiscount {
         // Create the input scanner
         Scanner input = new Scanner(System.in);
         
-        // Ask the user for the side lengths
+        // Ask the user for their age
         System.err.print("How old are you? ");
         int age = input.nextInt();
      
