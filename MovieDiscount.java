@@ -21,7 +21,7 @@ public class MovieDiscount {
         boolean coupon = input.nextBoolean();
         
         // Print the cost of a movie ticket
-        if (age < 13 || age > 65) {
+        if (age <= 13 || age >= 65) {
         	if (coupon == true) { 
         		System.out.println("Your ticket costs $9.5."); 	
         	}
@@ -36,7 +36,6 @@ public class MovieDiscount {
         	System.out.println("Your ticket costs $14.5.");
         }
     }
- 
 }
 
 
